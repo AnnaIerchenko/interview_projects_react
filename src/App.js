@@ -1,11 +1,13 @@
 import Accordeon from './components/accordeon';
-import RandomColor from './components/accordeon/random-color';
+
+import StarRating from './components/star-rating';
 
 function App() {
   return (
     <div className="App">
       {/* <Accordeon /> */}
-      <RandomColor />
+      {/* <RandomColor /> */}
+      <StarRating />
     </div>
   );
 }
