@@ -3,6 +3,8 @@ import ImgSlider from './components/img-slider';
 import LoadMoreData from './components/load-more-data';
 
 import StarRating from './components/star-rating';
+import TreeView from './tree-view';
+import menus from './tree-view/data';
 
 function App() {
   return (
@@ -15,7 +17,8 @@ function App() {
         page={"1"}
         limit={"4"}
       /> */}
-      <LoadMoreData />
+      {/* <LoadMoreData /> */}
+      <TreeView />
     </div>
   );
 }

@@ -23,12 +23,7 @@ const ImgSlider = ({url, limit = 5, page = 1}) => {
     }
   }
 
-  const handlePrevios = () => {
-    setCurSlide(curSlide === 0 ? images.length - 1 : curSlide - 1)
-  }
-  const handleNext = () => {
-    setCurSlide(curSlide === images.length - 1 ? 0 : curSlide + 1)
-  }
+
   useEffect(() => {
     if(url !== '') fetchImg(url)
   }, [url])
@@ -39,6 +34,13 @@ const ImgSlider = ({url, limit = 5, page = 1}) => {
   }
   if(errorMsg !== null){
     return <div>Error occured! {errorMsg}</div>
+  }
+
+  const handlePrevios = () => {
+    setCurSlide(curSlide === 0 ? images.length - 1 : curSlide - 1)
+  }
+  const handleNext = () => {
+    setCurSlide(curSlide === images.length - 1 ? 0 : curSlide + 1)
   }
   return (
     <div className='container'>
