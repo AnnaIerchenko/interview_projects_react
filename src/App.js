@@ -1,6 +1,7 @@
 import Accordeon from './components/accordeon';
 import ImgSlider from './components/img-slider';
 import LoadMoreData from './components/load-more-data';
+import QrCodeGenerator from './components/qr-code-generator';
 
 import StarRating from './components/star-rating';
 import TreeView from './tree-view';
@@ -18,7 +19,8 @@ function App() {
         limit={"4"}
       /> */}
       {/* <LoadMoreData /> */}
-      <TreeView />
+      {/* <TreeView /> */}
+      <QrCodeGenerator />
     </div>
   );
 }
