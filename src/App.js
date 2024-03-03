@@ -1,5 +1,6 @@
 import Accordeon from './components/accordeon';
 import ImgSlider from './components/img-slider';
+import LightDarkMode from './components/light-dark-mode';
 import LoadMoreData from './components/load-more-data';
 import QrCodeGenerator from './components/qr-code-generator';
 
@@ -20,7 +21,8 @@ function App() {
       /> */}
       {/* <LoadMoreData /> */}
       {/* <TreeView /> */}
-      <QrCodeGenerator />
+      {/* <QrCodeGenerator /> */}
+      <LightDarkMode />
     </div>
   );
 }
