@@ -3,6 +3,7 @@ import ImgSlider from './components/img-slider';
 import LightDarkMode from './components/light-dark-mode';
 import LoadMoreData from './components/load-more-data';
 import QrCodeGenerator from './components/qr-code-generator';
+import ScrollIndicator from './components/scroll-indicator';
 
 import StarRating from './components/star-rating';
 import TreeView from './tree-view';
@@ -22,7 +23,8 @@ function App() {
       {/* <LoadMoreData /> */}
       {/* <TreeView /> */}
       {/* <QrCodeGenerator /> */}
-      <LightDarkMode />
+      {/* <LightDarkMode /> */}
+      <ScrollIndicator url={'https://dummyjson.com/products?limit-100'}/>
     </div>
   );
 }
