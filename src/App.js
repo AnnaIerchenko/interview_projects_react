@@ -1,9 +1,11 @@
 import Accordeon from './components/accordeon';
+import GithubProfileFinder from './components/github-profile-finder';
 import ImgSlider from './components/img-slider';
 import LightDarkMode from './components/light-dark-mode';
 import LoadMoreData from './components/load-more-data';
 import ModalTest from './components/modal-popup/modal-text';
 import QrCodeGenerator from './components/qr-code-generator';
+import SearchAutocompete from './components/search-autocomplete';
 // import ScrollIndicator from './components/scroll-indicator';
 
 import StarRating from './components/star-rating';
@@ -27,7 +29,9 @@ function App() {
       {/* <QrCodeGenerator /> */}
       {/* <LightDarkMode /> */}
       {/* <ScrollIndicator url={'https://dummyjson.com/products?limit-100'}/> */}
-      <ModalTest />
+      {/* <ModalTest /> */}
+      {/* <GithubProfileFinder /> */}
+      <SearchAutocompete />
     </div>
   );
 }
