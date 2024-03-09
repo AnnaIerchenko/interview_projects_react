@@ -9,6 +9,7 @@ import SearchAutocompete from './components/search-autocomplete';
 // import ScrollIndicator from './components/scroll-indicator';
 
 import StarRating from './components/star-rating';
+import TicTacTok from './components/tic-tac-tok';
 
 import TreeView from './components/tree-view';
 // import menus from './tree-view/data';
@@ -31,7 +32,8 @@ function App() {
       {/* <ScrollIndicator url={'https://dummyjson.com/products?limit-100'}/> */}
       {/* <ModalTest /> */}
       {/* <GithubProfileFinder /> */}
-      <SearchAutocompete />
+      {/* <SearchAutocompete /> */}
+      <TicTacTok />
     </div>
   );
 }
