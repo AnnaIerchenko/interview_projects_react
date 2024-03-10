@@ -13,6 +13,7 @@ import UseWindowResizeTest from './components/use-window-resize/test';
 import TreeView from './components/tree-view';
 import UseFetchHookTest from './components/use-fetch/test';
 import UseOnclickOutsideTest from './components/use-outside-click/test';
+import ScrollToTopAndBottom from './components/scroll-to-top-and-to-bottom';
 // import menus from './tree-view/data';
 
 function App() {
@@ -37,7 +38,8 @@ function App() {
       {/* <TicTacTok /> */}
       {/* <UseFetchHookTest /> */}
       {/* <UseOnclickOutsideTest /> */}
-      <UseWindowResizeTest />
+      {/* <UseWindowResizeTest /> */}
+      <ScrollToTopAndBottom />
     </div>
   );
 }
