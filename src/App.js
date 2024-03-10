@@ -14,6 +14,7 @@ import TreeView from './components/tree-view';
 import UseFetchHookTest from './components/use-fetch/test';
 import UseOnclickOutsideTest from './components/use-outside-click/test';
 import ScrollToTopAndBottom from './components/scroll-to-top-and-to-bottom';
+import ScrollToSection from './components/scroll-to-top-and-to-bottom/scroll-to-section';
 // import menus from './tree-view/data';
 
 function App() {
@@ -39,7 +40,8 @@ function App() {
       {/* <UseFetchHookTest /> */}
       {/* <UseOnclickOutsideTest /> */}
       {/* <UseWindowResizeTest /> */}
-      <ScrollToTopAndBottom />
+      {/* <ScrollToTopAndBottom /> */}
+      <ScrollToSection />
     </div>
   );
 }
