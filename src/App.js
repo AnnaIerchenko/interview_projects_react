@@ -9,7 +9,7 @@ import SearchAutocompete from './components/search-autocomplete';
 // import ScrollIndicator from './components/scroll-indicator';
 import StarRating from './components/star-rating';
 import TicTacTok from './components/tic-tac-tok';
-
+import UseWindowResizeTest from './components/use-window-resize/test';
 import TreeView from './components/tree-view';
 import UseFetchHookTest from './components/use-fetch/test';
 import UseOnclickOutsideTest from './components/use-outside-click/test';
@@ -36,7 +36,8 @@ function App() {
       {/* <SearchAutocompete /> */}
       {/* <TicTacTok /> */}
       {/* <UseFetchHookTest /> */}
-      <UseOnclickOutsideTest />
+      {/* <UseOnclickOutsideTest /> */}
+      <UseWindowResizeTest />
     </div>
   );
 }
