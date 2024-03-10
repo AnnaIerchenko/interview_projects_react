@@ -12,6 +12,7 @@ import TicTacTok from './components/tic-tac-tok';
 
 import TreeView from './components/tree-view';
 import UseFetchHookTest from './components/use-fetch/test';
+import UseOnclickOutsideTest from './components/use-outside-click/test';
 // import menus from './tree-view/data';
 
 function App() {
@@ -34,7 +35,8 @@ function App() {
       {/* <GithubProfileFinder /> */}
       {/* <SearchAutocompete /> */}
       {/* <TicTacTok /> */}
-      <UseFetchHookTest />
+      {/* <UseFetchHookTest /> */}
+      <UseOnclickOutsideTest />
     </div>
   );
 }
