@@ -7,11 +7,11 @@ import ModalTest from './components/modal-popup/modal-text';
 import QrCodeGenerator from './components/qr-code-generator';
 import SearchAutocompete from './components/search-autocomplete';
 // import ScrollIndicator from './components/scroll-indicator';
-
 import StarRating from './components/star-rating';
 import TicTacTok from './components/tic-tac-tok';
 
 import TreeView from './components/tree-view';
+import UseFetchHookTest from './components/use-fetch/test';
 // import menus from './tree-view/data';
 
 function App() {
@@ -33,7 +33,8 @@ function App() {
       {/* <ModalTest /> */}
       {/* <GithubProfileFinder /> */}
       {/* <SearchAutocompete /> */}
-      <TicTacTok />
+      {/* <TicTacTok /> */}
+      <UseFetchHookTest />
     </div>
   );
 }
